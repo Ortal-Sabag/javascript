@@ -1,0 +1,4 @@
+app.js:2 Uncaught ReferenceError: a is not defined  
+js engine not save memeory for this variable
+
+undefined the value variable getting on creating phase of execution context.

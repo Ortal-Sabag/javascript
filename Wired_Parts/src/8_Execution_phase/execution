@@ -1,0 +1,6 @@
+on execution phase we already have the:
+1. global object
+2. this
+3. outer enviorment.
+now it runs your code line by line.
+interpeter it, converting, compiling, executing it on coputer.

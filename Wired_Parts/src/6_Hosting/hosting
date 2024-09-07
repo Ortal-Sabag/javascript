@@ -1,0 +1,13 @@
+execution conext has 2 phases:
+1. Creation phase
+--------------
+1. global object, 
+2. this, 
+3. outer enviorment
+4. setup memory space for variable and function "Hoisting"
+js engine is going to create memory space for variable and function, and set them up in memory space.
+
+2. Execution phase
+----------------
+all the execution include the ussign value to variable.
+

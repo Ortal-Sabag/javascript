@@ -1,0 +1,5 @@
+single threaded - one commond has been executed at a time.
+synchronous - on at a time.
+each line get executer one at time in the order it appear. 
+
+js is one single synchronize execution.

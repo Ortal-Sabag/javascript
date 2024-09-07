@@ -1,0 +1,46 @@
+
+The Global Enviorment
+---------------------
+js code run inside Execution Context.
+which  wrap the running code in execution context. 
+
+global- thing the accessuable everthing and everywhere in you code.
+the global execution context, js engine, create 2 things: 
+	1. Global Object
+	2. the this varialble. 
+
+
+when opening the index.html with broswer:
+1. js file loaded
+2. syntax parser started on empty file. so no code to execute.
+3. but couse it start runing the file, the execution context was created. 
+4. also this created. you can write on console => this.
+excution context created the "this" object by the JS engine and 
+it desided what the value of "this" sholud be. 
+currently is the tab on the browser, the current window, the browser window. 
+5. you can write also "window" on the console and see it the same object as the this.
+6. if you run it on node/server it will not be the window object, there is anouther global object.
+7. seperate tab it will be diffrent window object. couse each tab/windows as its owen global execution context.
+
+=> we have this and windows object and we wrote no code. this is the java script engine doing for me.
+
+Summary:
+1. execution context created at the global level. 
+there is a global object meaning that the object is available to all the code runing inside that window, 
+inside this area inside that js file, inside that lexecal enviorment.
+2. there is a speacial variable this.
+
+
+Global- 
+-------
+not inside a function
+
+
+
+code executed -> execution context created -> 
+on the global level, not under function, you have global object (on browser= window) => you have the this=> on browser is the window also.
+-> your code.
+
+
+
+ 

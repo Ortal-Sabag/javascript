@@ -1,0 +1,26 @@
+
+name/value pairs 
+-----------------
+a name which maps to a unique value.
+The name may be defined more than once, but only can have one value in any given context.
+that valu emay be more name/value pairs.
+
+for example:
+Address = '100 main st.'
+address is name, '100 main st.' is the value.
+
+Object
+-------
+a collection of name value pairs.
+the simpest definition when talking about javascript.
+
+Address: {
+	street : "main",
+	Number: 100,
+	Appartment : {
+		Floor: 3, 
+		Number: 301
+	}
+}
+addrees and appatrment are name with value = object.
+strret name, "main" value ...7uikl.

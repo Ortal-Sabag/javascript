@@ -1,0 +1,4 @@
+Syntax Parser - compiler
+-------------------------
+A program that read your code and determines what it does and if its grammar valid.
+your code is not magic. Someone else wrote a program to translate it for the computer.

@@ -1,0 +1,52 @@
+invocation -running the function by using ().
+you said to js engine to run  it.
+
+code example:
+-------------
+function b() {
+
+}
+function a() {
+    b();
+}
+a();
+
+
+what will happen?
+js engine will cretae the global execution context, this, global object = window on browser.
+it will attached the function to it, it will set up memory space for them.
+in the createing phase - b will be on memory.
+and then code will be executed line by line.
+it run the a() = > a new executing context , a execution context,created and put on the execution stuck.
+will do the create phase for the function and execution phase for the function.
+when it come to b() =? will create one more execution context and will run b function code. 
+
+each calling function will cretae new execution context with create and execute phases.
+
+example 2:
+----------
+function a() {
+    b();
+    var c;
+} 
+function b() {
+ var d;
+}
+
+a();
+var d;
+
+a() => invoke function a.
+a became the current execution context.
+var d not run yet caouse js is synchronize.
+
+on a function execution context we call b() and now it created execution context.
+when b done, we came back to finish a. couse when function finishing the execution context pop of the stuck.
+then it continur to run a code , mean the var c line.
+when a finish it pop of the stack. and we bck to the global execution context. and finish execute the var d;
+
+
+each time function get call the execution context for this function created. also the this variable for this function.
+and inserted to the stuck. when finish it pop off and continue where it stop before function get called.
+code run line by line synchronic.
+
